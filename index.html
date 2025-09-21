@@ -250,6 +250,13 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.4);
             object-fit: cover;
             animation: imageGlow 2s ease-in-out infinite alternate;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
         }
 
         .developer-info h2 {
@@ -356,11 +363,11 @@
             left: 50%;
             transform: translateX(-50%);
             display: flex;
-            gap: 1.5rem;
+            gap: 1rem;
             z-index: 1000;
             background: rgba(0,0,0,0.5);
-            padding: 1rem 2rem;
-            border-radius: 50px;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
             backdrop-filter: blur(20px);
         }
 
@@ -368,10 +375,10 @@
             background: rgba(255,255,255,0.2);
             border: 2px solid rgba(255,255,255,0.3);
             color: white;
-            padding: 15px 25px;
-            border-radius: 50px;
+            padding: 8px 16px;
+            border-radius: 25px;
             cursor: pointer;
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             font-weight: 600;
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
@@ -578,7 +585,7 @@
         <div class="slide">
             <h1 class="main-title">👨‍🏫 MEET THE INNOVATOR</h1>
             <div class="developer-profile">
-                <img class="developer-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSIxMDAiIGZpbGw9InVybCgjZGV2ZWxvcGVyKSIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZGV2ZWxvcGVyIj48c3RvcCBzdG9wLWNvbG9yPSIjMDY3OEZBIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzY2MEZGIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHRleHQgeD0iMTAwIiB5PSI4NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QUs8L3RleHQ+PHRleHQgeD0iMTAwIiB5PSIxMjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkRldmVsb3BlcjwvdGV4dD48L3N2Zz4=" alt="Anand Kathalewar">
+                <div class="developer-image">AK</div>
                 <div class="developer-info">
                     <h2>🏆 Anand Surajlal Kathalewar</h2>
                     <p><strong>🎯 Designation:</strong> Mathematics & Engineering Drawing Instructor</p>
@@ -602,8 +609,6 @@
             </div>
         </div>
 
-        <!-- Continue with other slides... -->
-        
         <!-- Slide 3: Developer Excellence -->
         <div class="slide">
             <h1 class="main-title">🌟 DEVELOPER EXCELLENCE</h1>
@@ -631,7 +636,7 @@
             </div>
         </div>
 
-        <!-- Continue with remaining slides -->
+        <!-- Slide 4: ITI Response Collection System -->
         <div class="slide">
             <h1 class="main-title">📱 ITI RESPONSE COLLECTION SYSTEM</h1>
             <h2 class="subtitle">🎯 Intelligent Cascading Dropdown System</h2>
@@ -654,8 +659,7 @@
             </div>
         </div>
 
-        <!-- Additional slides continue... -->
-        
+        <!-- Slide 5: Statewide Implementation -->
         <div class="slide">
             <h1 class="main-title">🚀 STATEWIDE IMPLEMENTATION READY</h1>
             <div class="features-grid">
@@ -687,7 +691,7 @@
         <div class="slide">
             <h1 class="main-title">🌟 "INNOVATION IN EDUCATION, EXCELLENCE IN EXECUTION"</h1>
             <div class="developer-profile">
-                <img class="developer-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSIxMDAiIGZpbGw9InVybCgjZGV2ZWxvcGVyMikiLz48ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImRldmVsb3BlcjIiPjxzdG9wIHN0b3AtY29sb3I9IiNGRjY2MDAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRjAwODAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48dGV4dCB4PSIxMDAiIHk9Ijg1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BSzwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjEyMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RGV2ZWxvcGVyPC90ZXh0Pjwvc3ZnPg==" alt="Anand Kathalewar">
+                <div class="developer-image">AK</div>
                 <div class="developer-info">
                     <h2>🏆 System Developer</h2>
                     <h3>Anand Surajlal Kathalewar</h3>
@@ -1027,3 +1031,5 @@
         // Call preload on slide change
         setInterval(preloadNextSlide, 1000);
     </script>
+</body>
+</html>
